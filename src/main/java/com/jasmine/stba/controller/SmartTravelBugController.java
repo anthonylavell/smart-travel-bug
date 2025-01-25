@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SmartTravelBugController {
     @GetMapping("/")
     public String displayHomePage(){
-        return "main/index";
+        return "main/index":
     }
 }
